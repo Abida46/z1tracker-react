@@ -26,9 +26,9 @@ const FeedBack = () => {
   };
 
   return (
-    <div className="font:calibri relative mt-20 border-neutral-800 min-h-[300px]">
+    <div className="font:calibri relative mt-10 border-neutral-800 min-h-[300px]">
       <div className="text-center">
-        <h2 className="text-3xl sm:text-4xl lg:text-5xl mt-10 lg:mt-20 tracking-wide">
+        <h2 className="text-3xl sm:text-2xl lg:text-4xl mt-10 lg:mt-20 tracking-wide">
           <span className="bg-gradient-to-r from-blue-500 to-blue-800 text-transparent bg-clip-text">
             Give Your Feedback
           </span>

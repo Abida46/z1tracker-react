@@ -11,9 +11,8 @@ const Footer = () => {
   const footeritems = [
     { label: "Home", to: "/" },
     { label: "About", to: "/About" },
-    { label: "Services", to: "/" },
-    { label: "Team", to: "/" },
-
+    { label: "Services", to: "/Services" },
+    { label: "Review", to: "/Review" },
     { label: "Contact", to: "/Contactus" },
   ];
   return (
@@ -29,7 +28,7 @@ const Footer = () => {
               <img
                 src={facebook}
                 alt="Facebook"
-                className="h-12 hover:scale-110 transition-all"
+                className="h-8 hover:scale-110 transition-all"
               />
             </Link>
           </li>
@@ -41,8 +40,8 @@ const Footer = () => {
             >
               <img
                 src={insta}
-                alt="instagram"
-                className="h-12 hover:scale-110 transition-all"
+                alt="Instagram"
+                className="h-8 hover:scale-110 transition-all"
               />
             </Link>
           </li>
@@ -54,7 +53,7 @@ const Footer = () => {
               <img
                 src={twitter}
                 alt="Twitter"
-                className="h-12 hover:scale-110 transition-all"
+                className="h-8 hover:scale-110 transition-all"
               />
             </Link>
           </li>
@@ -65,8 +64,8 @@ const Footer = () => {
             >
               <img
                 src={linked}
-                alt="Linked"
-                className="h-12 hover:scale-110 transition-all"
+                alt="LinkedIn"
+                className="h-8 hover:scale-110 transition-all"
               />
             </Link>
           </li>
@@ -78,8 +77,8 @@ const Footer = () => {
             >
               <img
                 src={youtube}
-                alt="Youtube"
-                className="h-12 hover:scale-110 transition-all"
+                alt="YouTube"
+                className="h-8 hover:scale-110 transition-all"
               />
             </Link>
           </li>
@@ -109,7 +108,7 @@ const Footer = () => {
           <img
             src={appstore}
             alt="App Store"
-            className="h-12 hover:scale-110 transition-all"
+            className="h-8 hover:scale-110 transition-all"
           />
         </Link>
         <Link
@@ -118,8 +117,8 @@ const Footer = () => {
         >
           <img
             src={playstore}
-            alt="play Store"
-            className="h-12 hover:scale-110 transition-all"
+            alt="Play Store"
+            className="h-8 hover:scale-110 transition-all"
           />
         </Link>
       </div>

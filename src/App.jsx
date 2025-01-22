@@ -12,7 +12,6 @@ import Login from "./components/login";
 import Navbar from "./components/Navbar";
 import Order from "./components/Order";
 import Price from "./components/Price";
-// import Reason from "./components/Reason";
 import Register from "./components/Register";
 import Review from "./components/Review";
 import Services from "./components/Services";
@@ -31,10 +30,8 @@ function App() {
                 <HeroSection />
               </span>
               <div className="max-w-8xl mx-auto  px-6">
-                <FeatureSection />
-                {/* <Reason /> */}
-
                 <Setup />
+                <FeatureSection />
                 <Price />
                 <FeedBack />
                 <Approved />

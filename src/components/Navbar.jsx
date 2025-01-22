@@ -10,7 +10,7 @@ const Navbar = () => {
     { label: "About", to: "/About" },
 
     { label: "Services", to: "Services" },
-    { label: "Review", to: "/Review" },
+
     { label: "Contactus", to: "/Contactus" },
     { label: "Blog", to: "/Blog" },
     { label: "Location", to: "/Location" },
@@ -59,7 +59,7 @@ const Navbar = () => {
               <img className="h-20 w-30 mr-2" src={logo} alt="logo" />
             </div>
             <div>
-              <ul className="hidden text-base lg:flex ml-14 space-x-12">
+              <ul className="hidden text-base lg:flex ml-14 space-x-12 pr-20">
                 {navItems.map((item, index) => (
                   <li key={index}>
                     <Link to={item.to}>{item.label}</Link>
@@ -68,6 +68,7 @@ const Navbar = () => {
               </ul>
             </div>
             <div className="hidden lg:flex justify-center text-white space-x-12 items-center">
+              {/* 
               <Link
                 to="https://gps.z1nepal.com.np/login"
                 target="_blank"
@@ -80,7 +81,7 @@ const Navbar = () => {
                 className="bg-gradient-to-r from-blue-500 to-blue-600 py-2 px-3 sm:py-3 sm:px-4 mx-3 rounded-md text-sm sm:text-base"
               >
                 Purchase Now
-              </Link>
+              </Link> */}
             </div>
             <div className="lg:hidden md:flex flex-col justify-end">
               <button onClick={toggleNavbar}>
@@ -100,7 +101,7 @@ const Navbar = () => {
                 ))}
               </ul>
               <div className="flex space-x-6 text-white">
-                <Link
+                {/* <Link
                   to="https://gps.z1nepal.com.np/login"
                   target="_blank"
                   className="py-2 px-3 border rounded-md bg-gradient-to-r from-blue-500 to-blue-600"
@@ -114,7 +115,7 @@ const Navbar = () => {
                   onClick={toggleNavbar}
                 >
                   Purchase Now
-                </Link>
+                </Link> */}
               </div>
             </div>
           )}
