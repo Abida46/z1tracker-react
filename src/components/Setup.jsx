@@ -5,7 +5,7 @@ const Setup = () => {
   return (
     <div className="relative mt-10 border-neutral-800 min-h-[300px]">
       <div className="text-center">
-        <h2 className="text-3xl sm:text-4xl lg:text-5xl mt-10lg:mt-10 tracking wide">
+        <h2 className="text-3xl sm:text-2xl lg:text-4xl mt-10lg:mt-10 tracking wide">
           <span className="bg-gradient-to-r from-blue-500 to-blue-800 text-transparent bg-clip-text">
             Get started in 4 steps
           </span>
@@ -13,11 +13,11 @@ const Setup = () => {
       </div>
       <div className="flex flex-wrap justify-center">
         <div className="p-2  w-half lg:w-1/2 pt-10">
-          <img className="mb-4 " src={setup} alt="vechile"></img>
+          <img className="mb-2 " src={setup} alt="vechile"></img>
         </div>
-        <div className="pt-12 w-full lg:w-1/2 mt-20">
+        <div className="pt-12 w-full lg:w-1/2 mt-10">
           {checklistItems.map((item, index) => (
-            <div key={index} className="flex mb-12 ">
+            <div key={index} className="flex mb-10 ">
               <div className="text-blue-400 mx-6  h-10 w-10 p-2 justofy-center items-center rounded-full">
                 <CheckCircle2 />
               </div>

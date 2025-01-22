@@ -1,6 +1,6 @@
 import { Check } from "lucide-react";
 import { TbRulerMeasure2 } from "react-icons/tb";
-import box from "../assets/box.png";
+import box from "../assets/box2.jpeg";
 const Price = () => {
   const hostingPlans = [
     {
@@ -26,8 +26,8 @@ const Price = () => {
   ];
 
   return (
-    <div className="flex flex-col items-center mt-2 lg:mt-3 px-2">
-      <h1 className="text-4xl sm:text-4xl lg:text-5xl text-center tracking-wide mb-8">
+    <div className="flex flex-col items-center mt-2 lg:mt-2 px-2">
+      <h1 className="text-4xl sm:text-2xl lg:text-4xl text-center tracking-wide mb-5">
         <span className="bg-gradient-to-r from-blue-500 to-blue-800 text-transparent bg-clip-text">
           Pricing
         </span>
@@ -42,7 +42,7 @@ const Price = () => {
             className="w-full max-w-lg lg:max-w-xl h-[500px] object-cover hover:scale-125 transition-all pt-10"
           />
         </div>
-        <div className="w-full lg:w-1/2 flex justify-center pt-10">
+        <div className="w-full lg:w-1/2 flex justify-center ">
           <div
             className={`relative w-full max-w-sm p-6 rounded-xl border-2 ${
               hostingPlans[0].isPopular ? "border-blue-200" : "border-gray-300"
